@@ -7,7 +7,7 @@
         "Windows",
         "Wildfly"
     ],
-    "iconUri": "https://github.com/wildfly/wildfly.org/blob/master/images/icon_download.png",
+    "iconUri": "https://github.com/maciej12203/azure-devtestlab/blob/master/Artifacts/windows-wildfly/logo.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ''', 'wildfly', '''\"')]"
