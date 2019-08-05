@@ -25,7 +25,7 @@ elif [ -n "$isYum" ] ; then
     yum clean all
     
     yum install -y epel-release
-    yum install -y httpd 
+    yum install -y httpd
     exit 0
 fi
 
