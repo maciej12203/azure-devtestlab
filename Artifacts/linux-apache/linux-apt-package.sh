@@ -15,7 +15,7 @@ if [ -n "$isApt" ] ; then
     apt-get -y update
     
     curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
-    apt-get -y install httpd
+    apt-get -y install apache2
     exit 0
 
 elif [ -n "$isYum" ] ; then
