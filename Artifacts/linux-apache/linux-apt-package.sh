@@ -15,7 +15,7 @@ if [ -n "$isApt" ] ; then
     apt-get -y update
     
     curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
-    apt-get -y install apache2
+    apt-get -y install httpd
     exit 0
 
 elif [ -n "$isYum" ] ; then
@@ -25,7 +25,7 @@ elif [ -n "$isYum" ] ; then
     yum clean all
     
     yum install -y epel-release
-    yum install -y apache2 npm
+    yum install -y httpd 
     exit 0
 fi
 
