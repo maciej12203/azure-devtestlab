@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir –p /var/databases/pgsql-9.6/data
-sudo yum -y localinstall https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+rpm -Uvh http://yum.postgresql.org/9.6/redhat/rhel-7-x86_64/pgdg-redhat96-9.6-3.noarch.rpm
 sudo yum -y update
 sudo yum install -y postgresql96 postgresql96-server postgresql96-libs postgresql96-contrib postgresql96-devel
 sudo chown –R postgres:postgres /var/databases/pgsql-9.6
