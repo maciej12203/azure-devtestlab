@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
     "title": "Linux-Apache",
-    "publisher": "Microsoft",
+    "publisher": "CoreOS",
     "description": "Install Apache on Linux",
     "tags": [
         "Apache",
