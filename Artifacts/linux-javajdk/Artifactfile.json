@@ -8,7 +8,7 @@
         "Java-JDK",
         "Linux"
     ],
-    "iconUri": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/Artifacts/linux-install-nodejs/nodeArtifact.png",
+    "iconUri": "",
     "targetOsType": "Linux",
     "runCommand": {
         "commandToExecute": "['sh linux-apt-package.sh']"
