@@ -1,8 +1,6 @@
 #!/bin/bash
-wget -e use_proxy=yes -e https_proxy=w3cache.gkjsw.pl:8080 https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz
 sudo groupadd -r wildfly
 sudo useradd -r -g wildfly -d /opt/wildfly -s /sbin/nologin wildfly
-wget https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.tar.gz -P /tmp
 sudo tar xf /tmp/wildfly-16.0.0.Final.tar.gz -C /opt/
 mkdir /opt/wildfly
 sudo ln -s /opt/wildfly-16.0.0.Final /opt/wildfly/wildfly-16.0.0
